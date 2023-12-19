@@ -1,0 +1,1032 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background-color: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-iteration-count: linear;
+}
+
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+nav a:hover,
+nav a.active {
+    color: #0ef;
+}
+
+section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #1f242d;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+section:nth-child(odd) {
+    background: #323946;
+}
+
+.images img {
+    display: flex;
+    position: relative;
+    width: 25vh;
+    border: 5px solid black;
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* courses design */
+
+#image1 {
+    transform: translateY(75%) translateX(40%);
+}
+
+#image1:hover { 
+    transform: translateY(65%) translateX(40%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image2 {
+    transform: translateY(-25%) translateX(190%);
+}
+
+#image2:hover { 
+    transform: translateY(-35%) translateX(190%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image3 {
+    transform: translateY(-125%) translateX(340%);
+}
+
+#image3:hover {
+    transform: translateY(-135%) translateX(340%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image4 {
+    transform: translateY(-225%) translateX(490%);
+}
+
+#image4:hover {
+    transform: translateY(-235%) translateX(490%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image5 {
+    transform: translateY(-325%) translateX(640%);
+}
+
+#image5:hover {
+    transform: translateY(-335%) translateX(640%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image6 {
+    transform: translateY(-260%) translateX(490%);
+}
+
+#image6:hover {
+    transform: translateY(-270%) translateX(490%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image7 {
+    transform: translateY(-360%) translate(640%);
+}
+
+#image7:hover {
+    transform: translateY(-370%) translate(640%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image8 {
+    transform: translateY(-460%) translateX(40%);
+}
+
+#image8:hover {
+    transform: translateY(-470%) translateX(40%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image9 {
+    transform: translateY(-560%) translateX(190%);
+}
+
+#image9:hover {
+    transform: translateY(-570%) translateX(190%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#image10 {
+    transform: translateY(-660%) translateX(340%);
+}
+
+#image10:hover {
+    transform: translateY(-670%) translateX(340%);
+    animation-name: glow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+/* ---------------------------------------- */
+
+
+#text1 {
+    display: flex;
+    position: relative;
+    right: 70px;
+    top: -500px; 
+}
+
+#text2 {
+    position: relative;
+    left: 300px;
+    top: -545px; 
+}
+
+#text3 {
+    position: relative;
+    left: 670px;
+    top: -592px; 
+}
+
+#text4 {
+    position: relative;
+    left: 1000px;
+    top: -638px; 
+}
+
+#text5 {
+    position: relative;
+    left: 1380px;
+    top: -684px; 
+}
+
+#text6 {
+    position: relative;
+    left: 1000px;
+    top: -338px; 
+}
+
+#text7 {
+    position: relative;
+    left: 1375px;
+    top: -384px; 
+}
+
+#text8 {
+    position: relative;
+    right: 75px;
+    top: -430px;
+}
+
+#text9 {
+    position: relative;
+    left: 280px;
+    top: -476px; 
+}
+
+#text10 {
+    position: relative;
+    left: 625px;
+    top: -522px; 
+}
+
+#text11 {
+    position: relative;
+    left: 450px;
+    top: -1300px;
+}
+
+.intro {
+    position: absolute;
+    display: flex;
+    left: 200px;
+    bottom: 750px;
+    font-size: 40px;
+}
+
+#start {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    top: 150px;
+    right: 300px;
+}
+
+#start:hover { 
+    background-color: rgb(101, 99, 99);
+}
+
+/* key frames */
+
+@keyframes appear {
+    0% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes glow {
+    0%{box-shadow: 0px 0px 50px rgb(150, 149, 149);}
+    100%{box-shadow: 0px 0px 50px rgb(150, 149, 149);}
+}
+
+@keyframes moveUP {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+/* bubbles on home */
+
+.bubbles {
+    position: relative;
+    display: flex;
+}
+
+.bubbles span {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: moveUP 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+.bubbles span:nth-child(even) {
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+}
+
+/* courses body */
+
+.abmBody,
+.filmBody,
+.gasBody,
+.humssBody,
+.musicBody,
+.sportsBody,
+.stemBody,
+.theaterBody,
+.tvlBody,
+.vamaBody {
+    background-color: #323946;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    position: relative;
+    color: white;
+}
+
+
+/* vama */
+
+.vamaTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#vamaDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#vamaCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#vamaSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -550px;
+}
+
+#vamaUniversity {
+    position: relative;
+    display: flex;
+    left: 900px;
+    top: -975px;
+}
+
+#vamaOpportunities {
+    position: relative;
+    display: flex;
+    left: 900px;
+    top: -900px;
+}
+
+/* theater */
+
+.theaterTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#theaterDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#theaterCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#theaterSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -575px;
+}
+
+#theaterUniversity {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -975px;
+}
+
+#theaterOpportunities {
+    position: relative;
+    display: flex;
+    left: 1100px;
+    top: -920px;
+}
+
+/* stem */
+
+.stemTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#stemDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#stemCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#stemSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -575px;
+}
+
+#stemUniversity {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -975px;
+}
+
+#stemOpportunities {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -900px;
+}
+
+/* humss */
+
+.humssTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#humssDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#humssCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#humssSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -575px;
+}
+
+#humssUniversity {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -975px;
+}
+
+#humssOpportunities {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -900px;
+}
+
+/* abm */
+
+.abmTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#abmDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#abmCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#abmSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -575px;
+}
+
+#abmUniversity {
+    position: relative;
+    display: flex;
+    left: 1200px;
+    top: -975px;
+}
+
+#abmOpportunities {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -900px;
+}
+
+/* gas */
+
+.gasTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#gasDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#gasCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#gasSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -575px;
+}
+
+#gasUniversity {
+    position: relative;
+    display: flex;
+    left: 1200px;
+    top: -975px;
+}
+
+#gasOpportunities {
+    position: relative;
+    display: flex;
+    left: 1200px;
+    top: -900px;
+}
+
+
+/* film */
+
+.filmTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#filmDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#filmCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#filmSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -575px;
+}
+
+#filmUniversity {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -975px;
+}
+
+#filmOpportunities {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -900px;
+}
+
+/* music */
+
+.musicTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#musicDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#musicCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#musicSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -575px;
+}
+
+#musicUniversity {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -975px;
+}
+
+#musicOpportunities {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -930px;
+}
+
+/* sports */
+
+.sportsTitle {
+    top: 175px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#sportsDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -700px;
+}
+
+#sportsCourses {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -630px;
+}
+
+#sportsSpecialized {
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: -575px;
+}
+
+#sportsUniversity {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -975px;
+}
+
+#sportsOpportunities {
+    position: relative;
+    display: flex;
+    left: 1000px;
+    top: -930px;
+}
+
+/* tvl */
+
+.tvlTitle {
+    top: 120px;
+    left: 100px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+#tvlDescription {
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: -770px;
+}
+
+#tvlDrafting {
+    position: relative;
+    display: flex;
+    left: 110px;
+    top: -750px;
+}
+
+#tvlCPG {
+    position: relative;
+    display: flex;
+    left: 650px;
+    top: -1475px;
+}
+
+#tvlCSS {
+    position: relative;
+    display: flex;
+    left: 1190px;
+    top: -2200px;
+}
+
+#tvlHRS {
+    position: relative;
+    display: flex;
+    left: 110px;
+    top: -2100px;
+}
+
+#tvlHCS {
+    position: relative;
+    display: flex;
+    left: 850px;
+    top: -2825px;
+}
+
+#tvlAFAS {
+    position: relative;
+    display: flex;
+    left: 110px;
+    top: -2700px;
+}
+
+#tvlIAS {
+    position: relative;
+    display: flex;
+    left: 800px;
+    top: -3435px;
+}
+
+/* about us */
+
+.aboutus {
+    position: relative;
+    display: flex;
+    left: 125px;
+    top: 25px;
+    font-size: 60px;
+}
+
+.aboutusMessage {
+    top: -50px;
+    left: 250px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.question {
+    position: relative;
+    display: flex;
+    background-color: rgb(113, 150, 113);
+    text-align: center;
+    font-size: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    left: -700px;
+    top: 350px;
+    color: white;
+    outline: none;
+}
+
+.question:hover {
+    background-color: rgb(133, 206, 133);
+}
+
+.contactTitle {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    left: -100px;
+    top: -250px;
+}
+
+.contactGmail {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    top: 160px;
+    left: -800px;
+}
+
+#contact #eydi {
+    position: relative;
+    display: flex;
+    top: -250px;
+    left: 1000px;
+}
+
+#contact #mic {
+    position: relative;
+    display: flex;
+    top: -200px;
+    left: -250px;
+}
+
+
+/* screen sizes */
+
+@media only screen and (max-width: 850px) {
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+    header {
+    position: relative;
+    padding: 20px 220px;
+    left: -180px;
+    width: 100vh;
+    display:flex;
+    justify-content: space-between;
+    align-items:start;
+    }
+
+    .intro {
+        position: absolute;
+        display: flex;
+        left: 400px;
+        bottom: 450px;
+        font-size: 20px;
+    }
+
+    #start {
+        display: inline;
+    }
+
+    .section {
+        width: 100vh;
+    }
+
+    .images img {
+        width: 100px;
+        left: -16px;
+    }
+
+    #image1 {
+        transform: translateY(30%) translateX(70%);
+    }
+    
+    #image2 {
+        transform: translateY(-70%) translateX(220%);
+    }
+    
+    #image3 {
+        transform: translateY(-20%) translateX(70%);
+    }
+    
+    #image4 {
+        transform: translateY(-120%) translateX(220%);
+    }
+    
+    #image5 {
+        transform: translateY(-70%) translateX(70%);
+    }
+    
+    #image6 {
+        transform: translateY(120%) translateX(70%);
+    }
+    
+    #image7 {
+        transform: translateY(20%) translateX(220%);
+    }	
+    
+    #image8 {
+        transform: translateY(-370%) translateX(220%);
+    }
+    
+    #image9 {
+        transform: translateY(-320%) translateX(70%);
+    }
+    
+    #image10 {
+        transform: translateY(-420%) translateX(220%);
+    }
+
+    #text1 {
+        display: flex;
+        position: relative;
+        font-size: 15px;
+        right: 15px;
+        top: -80px; 
+    }
+}
+}
+
+@media only screen and (max-width: 320px) {
+
+}
